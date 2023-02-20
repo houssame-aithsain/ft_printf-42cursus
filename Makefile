@@ -6,13 +6,15 @@
 #    By: hait-hsa <hait-hsa@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/26 17:02:57 by hait-hsa          #+#    #+#              #
-#    Updated: 2023/02/20 21:36:29 by hait-hsa         ###   ########.fr        #
+#    Updated: 2023/02/20 21:46:15 by hait-hsa         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRC =  ft_pxx.c ft_putnbru.c ft_putnbr.c ft_putstr.c \
-		ft_putchar.c ft_count_numb.c ft_phex.c ft_xhex.c \
-		ft_printf.c ft_count_numb_hex.c
+PT = ft_printf/
+
+SRC =  ${PT}ft_pxx.c ${PT}ft_putnbru.c ${PT}ft_putnbr.c ${PT}ft_putstr.c \
+		${PT}ft_putchar.c ${PT}ft_count_numb.c ${PT}ft_phex.c ${PT}ft_xhex.c \
+		${PT}ft_printf.c ${PT}ft_count_numb_hex.c
 
 CC = cc
 
