@@ -15,7 +15,7 @@
     <li>Change into the project directory:</li>
     <pre><code>cd ft_printf-42cursus</code></pre>
     <li>Compile the project:</li>
-    <pre><code>make libftprintf.a</code></pre>
+    <pre><code>make</code></pre>
     <li>Once the compilation is complete, you can start using the libftprintf library in your projects.</li>
   </ol>
   <h2>Usage</h2>
@@ -27,7 +27,7 @@ int main(void) {
     return 0;
 }</code></pre>
   <p>To compile your code with the libftprintf library, use the following command:</p>
-  <pre><code>gcc -o your_program your_code.c -L. -lftprintf</code></pre>
+  <pre><code>gcc -o your_program your_code.c libftprintf.a</code></pre>
   <h2>Documentation</h2>
   <p>The libftprintf library replicates the behavior of the standard C library's printf function and supports a variety of format specifiers, such as <code>%s</code> for strings, <code>%d</code> for integers, <code>%f</code> for floating-point numbers, and more. For detailed documentation and usage examples, refer to the project's documentation and the included <code>printf.h</code> header file.</p>
   <h2>Contributing</h2>
