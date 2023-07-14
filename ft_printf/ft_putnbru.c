@@ -18,8 +18,6 @@ int	ft_putnbru(unsigned int n)
 
 	len = 0;
 	len = ft_count_numb(n);
-	if (n >= 0 && n <= 9)
-		ft_putchar(n + 48);
 	if (n > 9)
 	{
 		ft_putnbru(n / 10);
