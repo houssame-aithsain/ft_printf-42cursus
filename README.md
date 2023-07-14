@@ -4,7 +4,7 @@
 </head>
 <body>
   <h1>Printf 42 Curses Project</h1>
-  <img src="https://www.techno-science.net/illustration/Definitions/1200px/p/printf.svg_25d308c58d321524151c98eff5123858.png" alt="Printf 42 Curses Project">
+  <img src="https://github.com/houssame-aithsain/ft_printf-42cursus/blob/main/Picsart_23-07-14_23-46-14-413.png" alt="Printf 42 Curses Project">
   <p>Welcome to the Printf 42 Curses Project! This project is part of the 42 curriculum and focuses on implementing your own version of the printf function.</p>
   <h2>About</h2>
   <p>The Printf 42 Curses Project challenges you to implement your own version of the printf function, which is a powerful tool for formatted output in C. This project will enhance your understanding of variable arguments, string parsing, and handling different data types.</p>
