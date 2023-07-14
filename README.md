@@ -20,7 +20,7 @@
   </ol>
   <h2>Usage</h2>
   <p>To use the libftprintf library, include the appropriate header file in your code and compile it with the library.</p>
-  <pre><code>#include "libftprintf.h"
+  <pre><code>#include "printf.h"
 
 int main(void) {
     // Your code using ft_printf function
@@ -29,8 +29,7 @@ int main(void) {
   <p>To compile your code with the libftprintf library, use the following command:</p>
   <pre><code>gcc -o your_program your_code.c -L. -lftprintf</code></pre>
   <h2>Documentation</h2>
-  <p>The libftprintf library replicates the behavior of the standard C library's printf function and supports a variety of format specifiers, such as <code>%s</code> for strings, <code>%d</code> for integers, <code>%f</code> for floating-point numbers, and more. For detailed documentation and usage examples, refer to the project's documentation and the included <code>libftprintf.h</code> header file.</p>
-  <p>For detailed documentation and usage examples, refer to the <a href="https://github.com/your-username/printf-curses/wiki">Printf 42 Curses Project Wiki</a>.</p>
+  <p>The libftprintf library replicates the behavior of the standard C library's printf function and supports a variety of format specifiers, such as <code>%s</code> for strings, <code>%d</code> for integers, <code>%f</code> for floating-point numbers, and more. For detailed documentation and usage examples, refer to the project's documentation and the included <code>printf.h</code> header file.</p>
   <h2>Contributing</h2>
   <p>Contributions to the Printf 42 Curses Project are welcome! If you find any bugs, have suggestions for improvements, or want to add new features, please open an issue or submit a pull request. Make sure to follow the project's code style and guidelines.</p>
   <ol>
